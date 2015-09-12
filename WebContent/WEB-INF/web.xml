@@ -50,6 +50,11 @@
     	<url-pattern>/redirect</url-pattern>
     </servlet-mapping>
     
+    <servlet-mapping>
+    	<servlet-name>default</servlet-name>
+    	<url-pattern>*.png</url-pattern>
+    </servlet-mapping>
+    
     <filter>
     	<filter-name>helloFilter</filter-name>
     	<filter-class>com.zebrait.HelloFilter</filter-class>
